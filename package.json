@@ -1,0 +1,42 @@
+{
+   "name": "create-unichain-dapp",
+   "version": "2.2.4",
+   "description": "A starter kit for building (Dapps) on the Unichain L2, powered by create-unichain-dapp.",
+   "main": "bin/index.mjs",
+   "scripts": {
+      "preinstall": "npm install chalk inquirer ora",
+      "start": "node bin/index.mjs"
+   },
+   "bin": {
+      "create-unichain-dapp": "bin/index.mjs"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/superXdev/create-unichain-dapp.git"
+   },
+   "keywords": [
+      "evm",
+      "nextjs",
+      "hardhat",
+      "foundry",
+      "uniswap",
+      "unichain",
+      "create-unichain-dapp"
+   ],
+   "author": "Fikri Rudiansyah",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/superXdev/create-unichain-dapp/issues"
+   },
+   "dependencies": {
+      "chalk": "^5.3.0",
+      "inquirer": "^10.1.8",
+      "ora": "^8.0.1"
+   },
+   "files": [
+      "bin/index.mjs",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md"
+   ]
+}
